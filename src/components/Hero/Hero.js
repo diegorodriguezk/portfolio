@@ -8,13 +8,11 @@ const Hero = (props) => (
  <Section row nopadding>
    <LeftSection>
      <SectionTitle main center>
-       Hey, I'm Diego. < br/>
-       Digital Creator <br />
-      
-
+       Hey! I'm Diego. < br/>
+      Digital Creator <br />
      </SectionTitle>
      <SectionText>
-       My Goal is Save The World 
+     I’m a multidisciplinary creative leader specializing in building and managing highly productive eCommerce brands. For over 5 years I have helped companies to create effective and impactful digital experiences.
      </SectionText>
      <Button onClick={() => window.location = 'https://google.com'}> Contact Me </Button>
    </LeftSection>

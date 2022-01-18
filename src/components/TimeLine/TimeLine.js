@@ -45,7 +45,7 @@ const Timeline = () => {
   return (
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>My mission is to create web/apps projects centered on solve real world problems
+      <SectionText>Out of the box creativity with solid brand understanding
 
       </SectionText>
       <CarouselContainer ref={carouselRef}>
