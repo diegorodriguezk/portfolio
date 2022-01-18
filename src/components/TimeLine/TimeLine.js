@@ -7,8 +7,8 @@ import { TimeLineData } from '../../constants/constants';
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
+  const [activeItem, setActiveItem] = useState(0);
+  const carouselRef = useRef();
 
   // const scroll = (node, left) => {
   //   return node.scrollTo({ left, behavior: 'smooth' });
@@ -43,9 +43,21 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id='about'>
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>My mission is to create web/apps projects centered on solve real world problems
+
+      </SectionText>
+      <CarouselContainer ref={carouselRef}>
+        <> 
+          {TimeLineData.map((item, index) => {
+            <CarouselMobileScrollNode key={index} final={index = TOTAL_CAROUSEL_COUNT - 1}>
+
+            </CarouselMobileScrollNode>
+          })}
+        </>
+      </CarouselContainer>
+    </Section>
   );
 };
 
