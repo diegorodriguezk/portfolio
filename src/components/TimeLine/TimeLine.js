@@ -45,7 +45,7 @@ const Timeline = () => {
   return (
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>Out of the box creativity with solid brand understanding
+      <SectionText>For over 5 years I have helped companies to create effective and impactful digital experiences.
 
       </SectionText>
       <CarouselContainer ref={carouselRef}>
