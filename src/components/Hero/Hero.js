@@ -9,12 +9,12 @@ const Hero = (props) => (
    <LeftSection>
      <SectionTitle main center>
        Hey! I'm Diego. < br/>
-      Digital Creator <br />
+      Software Developer <br />
      </SectionTitle>
      <SectionText>
-     I’m a multidisciplinary creative leader specializing in building and managing highly productive eCommerce brands. 
+     I’m a multidisciplinary creative leader specializing in building and managing highly productive eCommerce Projects. 
      </SectionText>
-     <Button onClick={() => window.location = 'https://google.com'}> Contact Me </Button>
+     <Button onClick={() => window.location = 'mailto:info@diegorodriguez.me'}> Contact Me </Button>
    </LeftSection>
  </Section>
 );
