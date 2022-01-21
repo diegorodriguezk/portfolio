@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Box, Boxes, BoxNum, BoxText } from '../Acomplishments/AcomplishmentsStyles';
+
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -34,21 +36,37 @@ const Timeline = () => {
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
-  useEffect(() => {
-    const handleResize = () => {
-      scroll(carouselRef.current, 0);
-    }
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     scroll(carouselRef.current, 0);
+  //   }
 
-    window.addEventListener('resize', handleResize);
-  }, []);
+  //   window.addEventListener('resize', handleResize);
+  // }, []);
 
+const data = [
+  { number: 20, text: 'Open Source Projects'},
+  { number: 1000, text: 'Students', },
+  { number: 1900, text: 'Github Followers', },
+  { number: 5000, text: 'Github Stars', }
+];
   return (
+    
     <Section id="about">
+      <SectionDivider/> <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      From the beginning days of when I first got into software development up until now, I’ve learned and gained a solid understanding of web development standards and how user expereince means everything.
+     </SectionText>
+     <Boxes>
+      {data.map((card, index )=>(
+        <Box key={index}>
+          <BoxNum>{card.number}+</BoxNum>
+          <BoxText>{card.text}</BoxText>
+        </Box>
+      ))}
+    </Boxes>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
@@ -96,8 +114,8 @@ const Timeline = () => {
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer>
-      <CarouselButtons>
+      </CarouselContainer> */}
+      {/* <CarouselButtons>
         {TimeLineData.map((item, index) => (
           <CarouselButton 
             key={index}
@@ -109,7 +127,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-      </CarouselButtons>
+      </CarouselButtons> */}
       <SectionDivider />
     </Section>
   );

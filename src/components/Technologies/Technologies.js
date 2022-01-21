@@ -1,6 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { FaShopify } from "react-icons/fa";
+import { FiFigma } from "react-icons/fi";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -11,26 +12,28 @@ const Technologies = () =>  (
    <SectionTitle>Technologies</SectionTitle>
    <SectionText>
      I've worked with a range a technologies in the web development world.
-     From Back-end to Design
+     From Back-end to Design 
    </SectionText>
    <List>
      <ListItem>
        <DiReact size="3rem" />
        <ListContainer>
-         <ListTitle>Front-End</ListTitle>
+         <ListTitle>Full-Stack</ListTitle>
          <ListParagraph>
            Experience with <br/>
-           React.JS
+           HTML / CSS / JavaScript (React)<br/>
+           NodeJS and Python (Flask)
+
          </ListParagraph>
        </ListContainer>
      </ListItem>
      <ListItem>
-       <DiFirebase size="3rem" />
+       <FiFigma size="3rem" />
        <ListContainer>
-         <ListTitle>Back-End</ListTitle>
+         <ListTitle>UI / UX</ListTitle>
          <ListParagraph>
            Experience with <br/>
-           Node.JS and Databases
+           Figma, Photoshop and Webflow
          </ListParagraph>
        </ListContainer>
      </ListItem>
