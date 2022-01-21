@@ -45,10 +45,10 @@ const Timeline = () => {
   // }, []);
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 5, text: 'Successful Projects'},
+  { number: 100, text: 'Satsfied Customers', },
+  { number: 5000, text: 'Cups of Coffee', },
+  { number: 1000, text: 'Lines of Code', }
 ];
   return (
     
@@ -56,7 +56,7 @@ const data = [
       <SectionDivider/> <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      From the beginning days of when I first got into software development up until now, I’ve learned and gained a solid understanding of web development standards and how user expereince means everything.
+      From the beginning days i started playing with apis while building a eCommerce Stores. Now, I’ve learned and gained a solid understanding of web development standars and how user expereince means everything.
      </SectionText>
      <Boxes>
       {data.map((card, index )=>(

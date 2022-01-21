@@ -11,8 +11,8 @@ const Technologies = () =>  (
    <br/>
    <SectionTitle>Technologies</SectionTitle>
    <SectionText>
-     I've worked with a range a technologies in the web development world.
-     From Back-end to Design 
+     I've worked with a range of project in the Digital world.
+     From Full-Stack Web Applications to Escale Multichannel eCommerce business
    </SectionText>
    <List>
      <ListItem>

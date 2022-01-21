@@ -1,13 +1,13 @@
 export const projects = [
-  {
-    title: 'GURUPIA',
-    description: "Using all my knowledge to build a brand from scratch. My main focus was in all the Amazon ecosystem like product research, FBA managment and Advertising Campaing Managment",
-      image: '/images/1.png',
-      tags: ['Anazon Ads', 'Amazon FBA', 'PPC', ''],
-    // source: 'https://google.com',
-    visit: 'https://www.amazon.com/stores/Gurupia/page/57069E92-26A7-4431-9DCC-61AA9A8DB8E0?ref_=ast_blnm',
-    id: 0,
-  },
+  // {
+  //   title: 'GURUPIA',
+  //   description: "Using all my knowledge to build a brand from scratch. My main focus was in all the Amazon ecosystem like product research, FBA managment and Advertising Campaing Managment",
+  //     image: '/images/1.png',
+  //     tags: ['Anazon Ads', 'Amazon FBA', 'PPC', ''],
+  //   // source: 'https://google.com',
+  //   visit: 'https://www.amazon.com/stores/Gurupia/page/57069E92-26A7-4431-9DCC-61AA9A8DB8E0?ref_=ast_blnm',
+  //   id: 0,
+  // },
 //   {
 //     title: 'E-Commerce',
 //     description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
