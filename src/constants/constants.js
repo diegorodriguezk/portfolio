@@ -1,12 +1,12 @@
 export const projects = [
-  // {
-  //   title: 'GURUPIA',
-  //   description: "Using all my knowledge to build a brand from scratch. My main focus was in all the Amazon ecosystem like product research, FBA managment and Advertising Campaing Managment",
-  //     image: '/images/1.png',
-  //     tags: ['Anazon Ads', 'Amazon FBA', 'PPC', ''],
-  //   // source: 'https://google.com',
-  //   visit: 'https://www.amazon.com/stores/Gurupia/page/57069E92-26A7-4431-9DCC-61AA9A8DB8E0?ref_=ast_blnm',
-  //   id: 0,
+  {
+    title: 'Doctor Electronic',
+    // description: "Using all my knowledge to build a brand from scratch. My main focus was in all the Amazon ecosystem like product research, FBA managment and Advertising Campaing Managment",
+      image: '/images/1.png',
+      // tags: ['Anazon Ads', 'Amazon FBA', 'PPC', ''],
+    // source: 'https://google.com',
+    visit: 'https://doctorelectronicca.com/',
+    id: 0,
   // },
 //   {
 //     title: 'E-Commerce',
@@ -34,7 +34,7 @@ export const projects = [
 //     source: 'https://google.com',
 //     visit: 'https://google.com',
 //     id: 3,
-//   },
+  },
 ];
 
 export const TimeLineData = [
