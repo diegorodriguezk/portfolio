@@ -2,8 +2,8 @@ export const projects = [
   {
     title: 'Doctor Electronic',
     // description: "Using all my knowledge to build a brand from scratch. My main focus was in all the Amazon ecosystem like product research, FBA managment and Advertising Campaing Managment",
-      image: '/images/1.png',
-      // tags: ['Anazon Ads', 'Amazon FBA', 'PPC', ''],
+      image: '/images/redcar1.jpg',
+      tags: ['Anazon Ads', 'Amazon FBA', 'PPC', ''],
     // source: 'https://google.com',
     visit: 'https://doctorelectronicca.com/',
     id: 0,
